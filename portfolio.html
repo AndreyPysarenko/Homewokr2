@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
        <!-- <page header> -->
@@ -17,11 +17,11 @@
             <!-- <logo and link> -->
     
                 <nav>
-                    <a class="logoheader" href="index.html">Web<span class="logoheader1">Studio</span></a>
+                    <a class="logoheader" href="index.html">Web<span class="logoheader-studio">Studio</span></a>
                     <ul class="link">
-                        <li class="linkstudio"><a href="index.html" class="studio">Студія</a></li>
-                        <li class="linkportfolio"><a href="portfolio.html" class="portfolio">Портфоліо</a></li>
-                        <li class="linkcontact"><a href="" class="contact">Контакти</a></li>
+                        <li class="linkstudio"><a href="index.html" class="linkpage">Студія</a></li>
+                        <li class="linkportfolio"><a class="active-link-portfolio" href="portfolio.html" class="linkpage">Портфоліо</a></li>
+                        <li class="linkcontact"><a href="#" class="linkpage">Контакти</a></li>
                     </ul>
                 </nav>
             
@@ -36,85 +36,78 @@
             <!-- <main content> -->
         <main>
 
-            <section class="applications">
-                <button class="type-order-applications" type="button">Усі</button>
-                <button class="type-order-applications" type="button">Веб-сайти</button>
-                <button class="type-order-applications" type="button">Додатки</button>
-                <button class="type-order-applications" type="button">Дизайн</button>
-                <button class="type-order-applications" type="button">Маркетинг</button>
-            </section>
+            <section >
+                <h1 hidden>Портфоліо</h1>
+                <ul class="applications">
+                    <li><button class="type-applications" type="button">Усі</button></li>
+                    <li><button class="type-applications" type="button">Веб-сайти</button></li>
+                    <li><button class="type-applications" type="button">Додатки</button></li>
+                    <li><button class="type-applications" type="button">Дизайн</button></li>
+                    <li><button class="type-applications" type="button">Маркетинг</button></li>
+                </ul>
 
-            <section>
                 <ul class="about">
                     <li>
-                        <img src="./Images/img4.jpg" alt="" width="370">
-                        <h3 class="about-description">Технокряк</h3>
-                        <p class="subdivision">Веб-сайт</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img4.jpg" alt="Технокряк" width="370">
+                            <h2 class="about-description">Технокряк</h2>
+                            <p class="subdivision">Веб-сайт</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img5.jpg" alt="" width="370">
-                        <h3 class="about-description">Постер New Orlean vs Golden Star</h3>
-                        <p class="subdivision">Дизайн</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img5.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                            <h2 class="about-description">Постер New Orlean vs Golden Star</h2>
+                            <p class="subdivision">Дизайн</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img6.jpg" alt="" width="370">
-                        <h3 class="about-description">Ресторан Seafood</h3>
-                        <p class="subdivision">Додаток</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img6.jpg" alt="Ресторан Seafood" width="370">
+                            <h2 class="about-description">Ресторан Seafood</h2>
+                            <p class="subdivision">Додаток</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img7.jpg" alt="" width="370">
-                        <h3 class="about-description">Проєкт Prime</h3>
-                        <p class="subdivision">Маркетинг</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img7.jpg" alt="Проєкт Prime" width="370">
+                            <h2 class="about-description">Проєкт Prime</h2>
+                            <p class="subdivision">Маркетинг</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img8.jpg" alt="" width="370">
-                        <h3 class="about-description">Проєкт Boxes</h3>
-                        <p class="subdivision">Додаток</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img8.jpg" alt="Проєкт Boxes" width="370">
+                            <h2 class="about-description">Проєкт Boxes</h2>
+                            <p class="subdivision">Додаток</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img9.jpg" alt="" width="370">
-                        <h3 class="about-description">Inspiration has no Borders</h3>
-                        <p class="subdivision">Веб-сайт</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img9.jpg" alt="Inspiration has no Borders" width="370">
+                            <h2 class="about-description">Inspiration has no Borders</h2>
+                            <p class="subdivision">Веб-сайт</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img10.jpg" alt="" width="370">
-                        <h3 class="about-description">Видання Limited Edition</h3>
-                        <p class="subdivision">Дизайн</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img10.jpg" alt="Видання Limited Edition" width="370">
+                            <h2 class="about-description">Видання Limited Edition</h2>
+                            <p class="subdivision">Дизайн</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img11.jpg" alt="" width="370">
-                        <h3 class="about-description">Проєкт LAB</h3>
-                        <p class="subdivision">Маркетинг</p>
-                    </li>
-                </ul>
-                <ul class="about">
+                        <a href="#">
+                            <img src="./images/img11.jpg" alt="Проєкт LAB" width="370">
+                            <h2 class="about-description">Проєкт LAB</h2>
+                            <p class="subdivision">Маркетинг</p>
+                        </a></li>
                     <li>
-                        <img src="./Images/img12.jpg" alt="" width="370">
-                        <h3 class="about-description">Growing Business</h3>
-                        <p class="subdivision">Додаток</p>
-                    </li>
+                        <a href="#">
+                            <img src="./images/img12.jpg" alt="Growing Business" width="370">
+                            <h2 class="about-description">Growing Business</h2>
+                            <p class="subdivision">Додаток</p>
+                        </a></li>
                 </ul>
             </section>
-
         </main>
 
         <!-- <page footer> -->
             <footer class="page-footer">
-                <a class="logofooter" href="index.html">Web<span class="logofooter-1">Studio</span></a>
+                <a class="logofooter" href="index.html">Web<span class="logofooter-studio">Studio</span></a>
                 <address>
                     <ul class="adress">
                         <li><a href="#" class="name-adress">м. Київ, пр-т Лесі Українки, 26</a></li>

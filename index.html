@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
         <!-- <page header> -->
@@ -17,11 +17,11 @@
                 <!-- <logo and link> -->
         
                     <nav>
-                        <a class="logoheader" href="index.html">Web<span class="logoheader1">Studio</span></a>
+                        <a class="logoheader" href="index.html">Web<span class="logoheader-studio">Studio</span></a>
                         <ul class="link">
-                            <li class="linkstudio"><a href="index.html" class="studio">Студія</a></li>
-                            <li class="linkportfolio"><a href="portfolio.html" class="portfolio">Портфоліо</a></li>
-                            <li class="linkcontact"><a href="" class="contact">Контакти</a></li>
+                            <li class="linkstudio"><a class="active-link-studio" href="index.html" class="linkpage">Студія</a></li>
+                            <li class="linkportfolio"><a href="portfolio.html" class="linkpage">Портфоліо</a></li>
+                            <li class="linkcontact"><a  href="#" class="linkpage">Контакти</a></li>
                         </ul>
                     </nav>
                 
@@ -43,6 +43,7 @@
         
                <!-- <description> -->
                <section>
+                <h2 hidden>Навички та вміння</h2>
                 <ul class="skills">
                     <li>
                         <h3 class="name-skills">Увага до людей</h3>
@@ -67,9 +68,9 @@
                <section>
                     <h2 class="title-work">Чим ми займаємося</h2>
                     <ul class="type-work">
-                        <li class="img-work"><img src="./Images/img1.png" alt="" width="370"></li>
-                        <li class="img-work"><img src="./Images/img2.png" alt="" width="370"></li>
-                        <li class="img-work"><img src="./Images/img3.png" alt="" width="370"></li>
+                        <li class="img-work"><img src="./images/img1.png" alt="типи робіт" width="370"></li>
+                        <li class="img-work"><img src="./images/img2.png" alt="типи робіт" width="370"></li>
+                        <li class="img-work"><img src="./images/img3.png" alt="типи робіт" width="370"></li>
                     </ul>
                </section>
                
@@ -77,23 +78,23 @@
                <section class="teams">
                 <h2 class="name-teams">Наша команда</h2>
                 <ul class="team-members">
-                    <li class="team-members-1">
-                        <img src="./Images/productdesigner.jpg" alt="" width="270">
+                    <li class="team-members-productdesigner">
+                        <img src="./images/productdesigner.jpg" alt="Product Designer" width="270">
                         <h3 class="name-members">Ігор Дем'яненко</h3>
                         <p class="position-members">Product Designer</p>
                     </li>
-                    <li class="team-members-2">
-                        <img src="./Images/frontenddeveloper.jpg" alt="" width="270">
+                    <li class="team-members-developer">
+                        <img src="./images/frontenddeveloper.jpg" alt="Frontend Developer" width="270">
                         <h3 class="name-members">Ольга Рєпіна</h3>
                         <p class="position-members">Frontend Developer</p>
                     </li>
-                    <li class="team-members-3">
-                        <img src="./Images/marketing.jpg" alt="" width="270">
+                    <li class="team-members-Mmrketing">
+                        <img src="./images/marketing.jpg" alt="Marketing" width="270">
                         <h3 class="name-members">Микола Тарасов</h3>
                         <p class="position-members">Marketing</p>
                     </li>
-                    <li class="team-members-4">
-                        <img src="./Images/designer.jpg" alt="" width="270">
+                    <li class="team-members-designer">
+                        <img src="./images/designer.jpg" alt="UI Designer" width="270">
                         <h3 class="name-members">Михайло Єрмаков</h3>
                         <p class="position-members">UI Designer</p>
                     </li>
@@ -103,7 +104,7 @@
         
         <!-- <page footer> -->
         <footer class="page-footer">
-            <a class="logofooter" href="index.html">Web<span class="logofooter-1">Studio</span></a>
+            <a class="logofooter" href="index.html">Web<span class="logofooter-studio">Studio</span></a>
             <address>
                 <ul class="adress">
                     <li><a href="#" class="name-adress">м. Київ, пр-т Лесі Українки, 26</a></li>

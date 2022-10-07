@@ -1,0 +1,282 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #FFFFFF;  
+}
+
+
+/* <page-header> */
+
+.page-header {
+    background: #FFFFFF;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* <logo and link> */
+
+.logoheader {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logoheader-studio {
+    color: #000000;
+}
+
+
+/* <link> */
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+.active-link-studio {
+    color: #2196F3;
+}
+.active-link-portfolio {
+    color: #2196F3;
+}
+
+.linkpage {
+    color: #212121;
+}
+
+
+
+/* <contacts> */
+
+.contacts {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+.mail {
+    color: #757575;
+}
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+.tel {
+    color: #757575;
+}
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
+
+
+/* <order> */
+
+.order {
+    background: #2F303A;
+}
+.order-description {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.type-order {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.type-order:hover,
+.type-order:focus {
+    background: #F5F4FA;
+    color: #212121;
+}
+button {
+    cursor: pointer;
+    background: #F5F4FA;
+}
+
+/* <skills description> */
+
+.skills {
+   list-style-type: none;
+}
+.name-skills {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.skills-description {
+    font-style: normal;
+    line-height: 1.71;
+    color: #757575;
+}
+
+
+
+/* <what do we do> */
+
+.type-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    list-style-type: none;
+}
+
+
+/* <team members> */
+
+.teams {
+    
+    background: #F5F4FA;
+}
+.name-teams {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team-members {
+    list-style-type: none;
+
+}
+
+.name-mambers {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.position-members {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #757575;
+}
+
+
+/* <page footer> */
+
+.page-footer {
+    background: #2F303A;
+}
+
+.logofooter {
+     
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+    
+}
+.logofooter-studio {
+    color:#FFFFFF;
+}
+
+.adress {
+    font-style: normal;
+    line-height: 1.71;
+    list-style-type: none;
+}
+
+.name-adress {
+    color: #FFFFFF;
+}
+.name-adress:hover,
+.name-adress:focus {
+    color: #2196F3;
+}
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+    color: #2196F3;
+}
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+    color: #2196F3;
+}
+
+
+
+/* <portfolio> */
+
+.applications {
+    list-style-type: none;
+}
+
+.type-applications {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;  
+    border: none;  
+}
+.type-applications:hover,
+.type-applications:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.about {
+    list-style-type: none;
+
+}
+
+.about-description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.subdivision {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
