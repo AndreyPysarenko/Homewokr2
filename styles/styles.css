@@ -20,11 +20,6 @@ body {
 
 /* <page-header> */
 
-.page-header {
-    background: #FFFFFF;
-}
-
-
 a {
     text-decoration: none;
 }
@@ -106,7 +101,7 @@ a.linkpage.active-link {
 }
 
 .type-order {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -243,7 +238,7 @@ button {
 }
 
 .type-applications {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
